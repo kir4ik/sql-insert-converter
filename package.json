@@ -1,0 +1,14 @@
+{
+  "name": "sql-insert-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "toJSON.js",
+  "scripts": {
+    "toJSON": "node toJSON ./input/insert.sql ./output/insert.json",
+    "toSQL": "node toSQL campaign ./input/insert.json ./output/insert.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
